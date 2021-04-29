@@ -351,6 +351,7 @@ Header Area CSS
 .top-header-left p a {
   display: inline-block;
   color: #ffffff;
+  font-size: 25px;
 }
 
 .top-header-left p a:hover {
@@ -732,7 +733,7 @@ Header Area CSS
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background-color: #161736 !important;
+  background-color: #000 !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -1034,26 +1035,32 @@ Main Banner Area CSS
 }
 
 .item-bg1 {
+  min-height: 960px;
   background-image: url(../../assets/img/main-banner1.jpg);
 }
 
 .item-bg2 {
+  min-height: 960px;
   background-image: url(../../assets/img/main-banner2.jpg);
 }
 
 .item-bg3 {
+  min-height: 960px;
   background-image: url(../../assets/img/main-banner3.jpg);
 }
 
 .item-bg4 {
+  min-height: 960px;
   background-image: url(../../assets/img/main-banner4.jpg);
 }
 
 .item-bg5 {
+  min-height: 960px;
   background-image: url(../../assets/img/main-banner5.jpg);
 }
 
 .item-bg6 {
+  min-height: 960px;
   background-image: url(../../assets/img/main-banner6.jpg);
 }
 
@@ -1393,21 +1400,6 @@ About Area CSS
       flex-wrap: wrap;
 }
 
-.columnNahim {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 100px;
-}
-
-.get-map {
-  background-image: url(../../assets/img/map-background.jpg);
-}
-
 .about-content span {
   display: inline-block;
   color: #f8af46;
@@ -1433,7 +1425,7 @@ About Area CSS
 
 .about-content h2 {
   margin-bottom: 15px;
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 700;
 }
 

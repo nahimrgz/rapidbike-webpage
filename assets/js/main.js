@@ -163,7 +163,7 @@
 
         // Count Time 
         function makeTimer() {
-            var endTime = new Date("September 30, 2020 17:00:00 PDT");			
+            var endTime = new Date("May 31, 2021 23:59:59 ");			
             var endTime = (Date.parse(endTime)) / 1000;
             var now = new Date();
             var now = (Date.parse(now) / 1000);
@@ -175,10 +175,10 @@
             if (hours < "10") { hours = "0" + hours; }
             if (minutes < "10") { minutes = "0" + minutes; }
             if (seconds < "10") { seconds = "0" + seconds; }
-            $("#days").html(days + "<span>Days</span>");
-            $("#hours").html(hours + "<span>Hours</span>");
-            $("#minutes").html(minutes + "<span>Minutes</span>");
-            $("#seconds").html(seconds + "<span>Seconds</span>");
+            $("#days").html(days + "<span>Días</span>");
+            $("#hours").html(hours + "<span>Horas</span>");
+            $("#minutes").html(minutes + "<span>Minutos</span>");
+            $("#seconds").html(seconds + "<span>Segundos</span>");
         }
         setInterval(function() { makeTimer(); }, 1000);
 
