@@ -163,7 +163,7 @@
 
         // Count Time 
         function makeTimer() {
-            var endTime = new Date("May 31, 2021 23:59:59 ");			
+            var endTime = new Date("Jun 30, 2021 23:59:59 ");			
             var endTime = (Date.parse(endTime)) / 1000;
             var now = new Date();
             var now = (Date.parse(now) / 1000);
