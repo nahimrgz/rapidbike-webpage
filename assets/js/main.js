@@ -161,9 +161,20 @@
         // Nice Select JS
         $('select').niceSelect();
 
+        //by NahimRgz
+        function getEndTime() {
+            var lastday = function(currentDate){
+                return  new Date(currentDate.getFullYear(), currentDate.getMonth() +1, 0).getDate();
+                }
+            const currentDate = new Date();
+            const monthShort = currentDate.toLocaleString('en', { month: 'short' });
+            return ("" + monthShort + " " + lastday(currentDate) + " " + currentDate.getFullYear() + " 23:59:59")
+        }
+
         // Count Time 
         function makeTimer() {
-            var endTime = new Date("Jun 30, 2021 23:59:59 ");			
+            getEndTime();
+            var endTime = getEndTime();			
             var endTime = (Date.parse(endTime)) / 1000;
             var now = new Date();
             var now = (Date.parse(now) / 1000);
